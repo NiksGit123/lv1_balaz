@@ -1,0 +1,161 @@
+body {
+    background-color: #f4f4f4;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navigacija {
+    background-color: #4E598C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    list-style: none;
+  }
+  
+  .navigacija li {
+    margin: 0 10px;
+    position: relative;
+    transition: background-color 0.3s;
+  }
+  
+  .navigacija li a {
+    color: #f4f4f4;
+    text-decoration: none;
+  }
+  
+  .navigacija li:hover {
+    background-color: #ff7f00;
+  }
+  
+  .navigacija .logo {
+    order: 1;
+    max-width: 50px;
+  }
+  
+  .container1 {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .vuv {
+    width: 80%;
+  }
+  
+  .novi-container {
+    height: auto;
+    width: auto;
+  }
+  .obavijesti {
+    height: auto;
+    width: auto;
+   
+  }
+  .sadrzaj{
+    display: flex;
+    size: auto;
+  }
+  .pravokutnik {
+    background-color: #4E598C;
+    padding: 40px;
+    color: #f4f4f4;
+    text-align: right;
+    position: relative;
+    top: 20px;
+    right: 150px;
+    width: 25%;
+    height: 25%;
+  }
+  
+  .pravokutnik h2 {
+    margin-top: 0;
+  }
+  
+  .pravokutnik p {
+    margin: 0;
+  }
+  
+  
+  
+  
+  .mali-pravokutnik {
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    color: #F4F4F4;
+  }
+  
+  .datum {
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    background-color: #4E598C;
+  }
+  
+  .tekst {
+    flex: 1;
+    margin-left: 10px;
+    color: #4E598C;
+  }
+  
+  .footer {
+    background-color: #4E598C;
+    padding: 20px;
+    color: #FCAF58;
+    text-align: center;
+    position: absolute;
+    top: 1000px;
+    left: 0;
+    width: 100%;
+  }
+  
+  .h2 {
+    font-size: 24px; /* Veća veličina fonta za <h2> */
+    font-family: 'Montserrat', sans-serif; /* Font Montserrat */
+    color: #4E598C;
+  }
+  
+  /* CSS stilovi za <p> elemente */
+  .uvod {
+    font-size: 16px; /* Osnovna veličina fonta za <p> */
+    font-family: 'Montserrat', sans-serif; /* Font Montserrat */
+    color: black;
+  }
+  
+  .h3 {
+    font-size: 18px; /* Srednja veličina fonta za <h3> */
+    font-family: 'Montserrat', sans-serif; /* Font Montserrat */
+    color: black;
+  }
+  
+  .vizija {
+    font-size: 16px; /* Osnovna veličina fonta za <p> */
+    font-family: 'Montserrat', sans-serif; /* Font Montserrat */
+    font-style: italic; /* Tekst je u kurzivu */
+    color: black;
+  }
+  
+  .misija {
+    font-size: 16px; /* Osnovna veličina fonta za <p> */
+    font-family: 'Montserrat', sans-serif; /* Font Montserrat */
+    color: black;
+  }
+  
+  #h11, #nas, #nas2 {
+    color: #000000; /* Promijeni boju teksta u crnu za elemente s ID-jevima "nas" i "nas2" */
+  }
+  
+  #tablica thead th {
+    background-color: #4E598C;
+    color: #F4F4F4;
+    font-weight: bold; /* Deblji stil za zaglavlje tablice */
+  }
+  
+  #tablica td {
+    color: black;
+  }
