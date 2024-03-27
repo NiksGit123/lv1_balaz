@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+	<meta charset="UTF-8">
+	<title>VUV | Kontakt</title>
+	<link rel="stylesheet" href="./css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<style>
+        /* Stil za formu */
+        .forma-container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .form-input, .form-textarea {
+            width: 100%;
+            padding: 15px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            color: #000; 
+        }
+
+        .form-button {
+            background-color: #4E598C;
+            color: #F4F4F4;
+            padding: 15px 30px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="vrh">
+			<ul class="navigacija">
+				<li><a href = "index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+				<li><a href="oveleucilistu.html">O Veleučilištu</a></li>
+				<li><a href="studijski_programi.html">Studijski Programi</a></li>
+				<li><a href="nastavnici.html">Nastavnici</a></li>
+				<li><a href="kontakt.html">Kontakt</a></li>
+				<li><img class="logo" src="img/logo-vuv.png" alt="Logo"></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="forma-container">
+        <form action="/action_page.php">
+            <label for="fname">Ime:</label><br>
+            <input type="text" id="fname" name="fname" value="Unesite ime..." class="form-input"><br>
+            <label for="lname">Prezime:</label><br>
+            <input type="text" id="lname" name="lname" value="Unesite prezime..." class="form-input"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" value="Unesite email adresu..." class="form-input"><br>
+            <label for="message">Poruka:</label><br>
+            <textarea id="message" name="message" class="form-textarea">Unesite poruku...</textarea><br>
+            <input type="submit" value="Submit" class="form-button">
+        </form>
+    </div>
+
+	<div class="footer">
+        Stranicu izradio: Ivan Benke
+    </div>
+	
+</body>
+</html>
